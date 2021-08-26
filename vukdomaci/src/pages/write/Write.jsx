@@ -15,7 +15,7 @@ export default function Write() {
                 <div className="writeFormGroup">
                     <textarea placeholder="Tell your story..." type="text" className="writeInput writeText"></textarea>
                 </div>
-                <button className="writeSubmit">Publish</button>
+                <button className="writeSubmit">Objavi</button>
             </form>
         </div>
     )
