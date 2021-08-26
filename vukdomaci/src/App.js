@@ -4,13 +4,14 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Posts from "./components/posts/Posts";
 import Settings from "./pages/settings/Settings";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
     <>
       <Topbar/>
       
-      <Settings/>
+      <Login/>
       
     </>
   );
