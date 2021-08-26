@@ -5,13 +5,14 @@ import Write from "./pages/write/Write";
 import Posts from "./components/posts/Posts";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
+import Register from "./pages/register/Register";
 
 function App() {
   return (
     <>
       <Topbar/>
       
-      <Login/>
+      <Register/>
       
     </>
   );
