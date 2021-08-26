@@ -6,12 +6,14 @@ import Posts from "./components/posts/Posts";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Contact from "./pages/contact/Contact";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
 } from "react-router-dom";
+
 
 
 function App() {
@@ -34,6 +36,9 @@ function App() {
         </Route>
         <Route path="/settings">
         {user ? <Settings /> : <Register />}
+        </Route>
+        <Route path="/contact">
+          <Contact/>
         </Route>
         <Route path="/post/:postId">
           <Single />

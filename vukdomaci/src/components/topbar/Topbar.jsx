@@ -19,7 +19,7 @@ export default function topbar() {
                     <li className="topListItem">
                         <Link className="link" to="/">O MENI</Link>
                     </li>
-                    <li className="topListItem"><Link className="link" to="/">KONTAKTI</Link></li>
+                    <li className="topListItem"><Link className="link" to="/contact">KONTAKTI</Link></li>
                     <li className="topListItem"><Link className="link" to="/write">PISI</Link></li>
                     <li className="topListItem">
                         {user && "LOGOUT"}
