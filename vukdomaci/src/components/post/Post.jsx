@@ -1,4 +1,5 @@
 import "./post.css"
+import { Link } from "react-router-dom"
 
 export default function Post() {
     return (
@@ -10,7 +11,8 @@ export default function Post() {
                     <span className="postCat">Life</span>
                 </div>
                 <span className="postTitle">
-                    Lorem ipsum.
+                <Link className="link" to="/post/:postId">Lorem ipsum.</Link>
+                    
                 </span>
                 <hr />
                 <span className="postDate">1 hour ago</span>
